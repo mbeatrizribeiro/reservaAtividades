@@ -1,0 +1,12 @@
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.csproj.AssemblyReference.cache
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.AssemblyInfoInputs.cache
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.AssemblyInfo.cs
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.csproj.CoreCompileInputs.cache
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\bin\Debug\net5.0\ReservaAtividades.Domain.deps.json
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\bin\Debug\net5.0\ReservaAtividades.Domain.dll
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\bin\Debug\net5.0\ref\ReservaAtividades.Domain.dll
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\bin\Debug\net5.0\ReservaAtividades.Domain.pdb
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.dll
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ref\ReservaAtividades.Domain.dll
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Domain\obj\Debug\net5.0\ReservaAtividades.Domain.pdb
