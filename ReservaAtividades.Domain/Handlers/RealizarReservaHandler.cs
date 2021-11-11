@@ -1,6 +1,6 @@
 ﻿namespace ReservaAtividades.Domain.Handlers
 {
-    public class RealizarReservaHandler : IRequestHandler<>
+    public class RealizarReservaHandler
     {
 
     }

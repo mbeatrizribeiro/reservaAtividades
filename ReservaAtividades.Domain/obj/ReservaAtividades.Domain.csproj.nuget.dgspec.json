@@ -1,26 +1,103 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj": {}
+    "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj": {
+    "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj",
         "projectName": "ReservaAtividades.Domain",
-        "projectPath": "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj",
-        "packagesPath": "C:\\Users\\929001861\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\obj\\",
+        "projectPath": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\ReservaAtividades.Domain.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\929001861\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj": {
+                "projectPath": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Divino.OperationResult": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[10.3.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.9.22, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj",
+        "projectName": "ReservaAtividades.Shareable",
+        "projectPath": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj",
+        "packagesPath": "C:\\Users\\opah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\opah\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\opah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -47,17 +124,13 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Divino.OperationResult": {
+            "FluentValidation": {
               "target": "Package",
-              "version": "[2.0.2, )"
+              "version": "[10.3.3, )"
             },
-            "MediatR": {
+            "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
-              "version": "[9.0.0, )"
-            },
-            "SpecFlow": {
-              "target": "Package",
-              "version": "[3.9.22, )"
+              "version": "[10.3.3, )"
             }
           },
           "imports": [
@@ -75,7 +148,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
