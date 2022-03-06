@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ReservaAtividades.Domain.Entidades;
 
 namespace ReservaAtividades.Data
 {
@@ -8,8 +7,8 @@ namespace ReservaAtividades.Data
         public ReservasContext(DbContextOptions<ReservasContext> options)
             : base(options) { }
 
-        public DbSet<Reservas> Reservas { get; set; }
+        //public DbSet<Reservas> Reservas { get; set; }
 
-        public DbSet<Clientes> Clientes { get; set; }
+        //public DbSet<Clientes> Clientes { get; set; }
     }
 }

@@ -1,9 +1,8 @@
-﻿using ReservaAtividades.Domain.Repositorios;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 
 namespace ReservaAtividades.Data.Repositorios
 {
-    public class RepositoryBase : IRepository
+    public class RepositoryBase //: IRepository
     {
         protected RepositoryBase(ReservasContext context)
         {

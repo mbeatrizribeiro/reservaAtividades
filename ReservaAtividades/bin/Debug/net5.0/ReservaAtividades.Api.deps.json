@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "ReservaAtividades.Api/1.0.0": {
         "dependencies": {
+          "FluentValidation.DependencyInjectionExtensions": "10.3.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "ReservaAtividades.Data": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
@@ -358,6 +359,32 @@
         },
         "compile": {
           "lib/netstandard2.0/OperationResult.dll": {}
+        }
+      },
+      "FluentValidation/10.3.3": {
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
+      "FluentValidation.DependencyInjectionExtensions/10.3.3": {
+        "dependencies": {
+          "FluentValidation": "10.3.3",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "10.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {}
         }
       },
       "Gherkin/19.0.3": {
@@ -944,7 +971,11 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Collections.Immutable/5.0.0": {},
+      "System.Collections.Immutable/5.0.0": {
+        "compile": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
+        }
+      },
       "System.Collections.NonGeneric/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -971,7 +1002,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {}
+        }
+      },
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -1358,7 +1393,11 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.Reflection.Metadata/5.0.0": {},
+      "System.Reflection.Metadata/5.0.0": {
+        "compile": {
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
+        }
+      },
       "System.Reflection.Primitives/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1757,6 +1796,7 @@
       },
       "ReservaAtividades.Data/1.0.0": {
         "dependencies": {
+          "FluentValidation.DependencyInjectionExtensions": "10.3.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.10",
           "ReservaAtividades.Domain": "1.0.0",
           "System.Reflection.Metadata": "5.0.0"
@@ -1771,7 +1811,9 @@
       "ReservaAtividades.Domain/1.0.0": {
         "dependencies": {
           "Divino.OperationResult": "2.0.2",
+          "FluentValidation.DependencyInjectionExtensions": "10.3.3",
           "MediatR": "9.0.0",
+          "ReservaAtividades.Shareable": "1.0.0",
           "SpecFlow": "3.9.22"
         },
         "runtime": {
@@ -1779,6 +1821,18 @@
         },
         "compile": {
           "ReservaAtividades.Domain.dll": {}
+        }
+      },
+      "ReservaAtividades.Shareable/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "10.3.3",
+          "FluentValidation.DependencyInjectionExtensions": "10.3.3"
+        },
+        "runtime": {
+          "ReservaAtividades.Shareable.dll": {}
+        },
+        "compile": {
+          "ReservaAtividades.Shareable.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -3496,6 +3550,20 @@
       "path": "divino.operationresult/2.0.2",
       "hashPath": "divino.operationresult.2.0.2.nupkg.sha512"
     },
+    "FluentValidation/10.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sgRC+7q4mnmDHE9ehk2cvb+FDTy/gtw5iBoKFY3FVp1ZwFsLS0kIcdSpNlCO3XyyNIzZI2ca8I/YiFG9pM6x0Q==",
+      "path": "fluentvalidation/10.3.3",
+      "hashPath": "fluentvalidation.10.3.3.nupkg.sha512"
+    },
+    "FluentValidation.DependencyInjectionExtensions/10.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kol9KlAn2pijRa0vLCzAPcp8Ql8yZdIRrO80eMVLswXQ0v6ai+ihOdqF/qPJCMXNWBnTcTGYjp1tZtizPWO+Cg==",
+      "path": "fluentvalidation.dependencyinjectionextensions/10.3.3",
+      "hashPath": "fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512"
+    },
     "Gherkin/19.0.3": {
       "type": "package",
       "serviceable": true,
@@ -4447,6 +4515,11 @@
       "sha512": ""
     },
     "ReservaAtividades.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReservaAtividades.Shareable/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

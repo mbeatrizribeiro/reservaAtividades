@@ -6,6 +6,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using ReservaAtividades.Data;
 
+
 namespace ReservaAtividades
 {
     public class Startup
@@ -25,6 +26,11 @@ namespace ReservaAtividades
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+
+            // Add framework services.
+            services.AddMvc();
+            
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

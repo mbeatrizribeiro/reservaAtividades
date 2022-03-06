@@ -10,10 +10,16 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Domain", "02 - Domain", "{14EAA0E1-522D-4F63-8B78-D644BDC6767E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaAtividades.Domain", "ReservaAtividades.Domain\ReservaAtividades.Domain.csproj", "{B295F7E8-5304-47F3-9F97-03664472B19B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1CCD1737-7BBD-4386-BC2A-CE796CE1B449} = {1CCD1737-7BBD-4386-BC2A-CE796CE1B449}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Infra", "03 - Infra", "{1638E6CA-0B77-410F-BFD7-64A1B06532AC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaAtividades.Data", "ReservaAtividades.Data\ReservaAtividades.Data.csproj", "{1CCD1737-7BBD-4386-BC2A-CE796CE1B449}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B5D030DC-6A1F-416E-ACCA-D35C4BF615EA} = {B5D030DC-6A1F-416E-ACCA-D35C4BF615EA}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "99 - Tests", "99 - Tests", "{D6F302A9-51BE-43AC-8A84-6DE72457ED8F}"
 EndProject
@@ -23,7 +29,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaAtividades.Api.Tests
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - CrossCutting", "04 - CrossCutting", "{36D85926-316F-4023-B668-8ADE6E73B751}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReservaAtividades.Shareable", "ReservaAtividades.Shareable\ReservaAtividades.Shareable.csproj", "{B5D030DC-6A1F-416E-ACCA-D35C4BF615EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReservaAtividades.Shareable", "ReservaAtividades.Shareable\ReservaAtividades.Shareable.csproj", "{B5D030DC-6A1F-416E-ACCA-D35C4BF615EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

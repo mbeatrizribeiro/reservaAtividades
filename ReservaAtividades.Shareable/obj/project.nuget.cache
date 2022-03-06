@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "DLP+Vg7epS9mA8DGPM3MzZdPEfcLGTYYH5btrOmAOBpUPqUwY6RC0QVvuOYO008w78v3WXOVhedWsqNN+q8oVw==",
+  "dgSpecHash": "GXtMj/1wHNuwnuPHribTFSryj9jUscYM9lE4DGMc34oF9KWvu7R/IM8QDN+b9D1SZfi0M4YqWkDFmLt1TE5JGg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\929001861\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\beatr\\Documents\\ReservaAtividades\\ReservaAtividades.Shareable\\ReservaAtividades.Shareable.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\beatr\\.nuget\\packages\\fluentvalidation\\10.3.3\\fluentvalidation.10.3.3.nupkg.sha512",
+    "C:\\Users\\beatr\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.3\\fluentvalidation.dependencyinjectionextensions.10.3.3.nupkg.sha512",
+    "C:\\Users\\beatr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

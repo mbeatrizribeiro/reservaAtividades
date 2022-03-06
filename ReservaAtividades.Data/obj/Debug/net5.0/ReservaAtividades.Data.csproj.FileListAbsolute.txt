@@ -13,3 +13,17 @@ C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\
 C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.dll
 C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ref\ReservaAtividades.Data.dll
 C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.pdb
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ReservaAtividades.Shareable.dll
+C:\Users\929001861\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ReservaAtividades.Shareable.pdb
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ReservaAtividades.Data.deps.json
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ReservaAtividades.Data.dll
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ref\ReservaAtividades.Data.dll
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\bin\Debug\net5.0\ReservaAtividades.Data.pdb
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.csproj.AssemblyReference.cache
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.AssemblyInfoInputs.cache
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.AssemblyInfo.cs
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.csproj.CoreCompileInputs.cache
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.dll
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ref\ReservaAtividades.Data.dll
+C:\Users\beatr\Documents\ReservaAtividades\ReservaAtividades.Data\obj\Debug\net5.0\ReservaAtividades.Data.pdb
